@@ -8,9 +8,9 @@ const Footer = () => {
         <hr className="opacity-40" />
         <div className="mx-auto  container py-4 sm:py-6 max-w-full">
           <div className=" md:flex md:justify-evenly ">
-            <div className="mb-6 sm:pl-16 ml-5 md:ml-0">
+            <div className="mb-6  ml-5 md:ml-0">
               <h1 className="text-white font-bold">Get latest updates</h1>
-              <div className=" my-3 mr-4 md:bg-[#1c1c1c] rounded-lg flex mx-auto">
+              <div className=" my-3 mr-4 md:bg-[#1c1c1c] rounded-lg flex flex-col md:flex-row mx-auto gap-2 md:gap-0">
                 {/* <form
                   method="POST"
                   action="https://formsubmit.co/crownworld2023@gmail.com>"
@@ -32,7 +32,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 ">
-              <div className="md:px-16 px-4">
+              <div className="lg:px-16 px-4">
                 <h2 className=" mb-6 text-sm font-semibold  uppercase text-white">
                   Crown World
                 </h2>
@@ -67,7 +67,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="md:px-10 lg:px-16 px-4">
+              <div className="md:px-5 lg:px-16 px-4">
                 <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
                   Contact
                 </h2>
